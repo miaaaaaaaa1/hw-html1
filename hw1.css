@@ -1,0 +1,76 @@
+.inner-conteiner{
+    background-color: rgb(219, 219, 219);
+    display: flex;
+}
+
+.menu{
+    background-color: #333333;
+    width: 300px;
+}
+
+.img{
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 100px;
+    padding-bottom: 15px;
+}
+
+.menu h3{
+    color: white;
+    padding: 20px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgb(40, 39, 39);
+}
+ 
+.text{
+    color: white;
+    padding: 20px;
+    padding-left: 30px;
+    border-bottom: 1px solid rgb(40, 39, 39);
+    border-top: 1px solid rgb(40, 39, 39);
+}
+
+.conteiner-div{
+    display: flex;
+    gap: 50px;
+}
+
+.dashboard{
+    margin: 40px;
+}
+
+.div-img h2{
+    padding-left: 20px;
+}
+
+.div-img img{
+    width: 500px;
+    padding: 20px;
+}
+
+.con{
+    background-color: white;
+    margin-left: 20px;
+}
+
+.con h3{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.conteiner{
+    padding-left: 30px;
+}
+
+@media (min-width:300px) and (max-width:600px) {
+    .inner-conteiner{
+       flex-direction: column;
+    }
+
+    .menu{
+        width: 600px;
+    }
+    .div-img img{
+        width: 400px;
+    }
+}
